@@ -15,7 +15,8 @@ body {
       font-size: 18px; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", "Helvetica Neue", sans-serif; }
+  font-family: "Nunito", "Helvetica Neue", sans-serif;
+  font-weight: bolder; }
 
 /* Selection */
 ::-moz-selection {
@@ -118,5 +119,30 @@ img::-moz-selection {
   #profile, #portada {
     max-width: 200px;
     margin-bottom: 20px; } }
+#cta {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #0666ff;
+  color: #ffffff; }
+  #cta .lead h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: 900; }
+  #cta .lead #cta-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #0666ff;
+    border: 1px solid #ffffff;
+    padding: 20px 80px;
+    border-radius: 250px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
+    transition: 0.3s; }
+    #cta .lead #cta-btn:hover {
+      transform: scale(1.1);
+      text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
