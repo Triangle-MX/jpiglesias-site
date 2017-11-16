@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Nunito:400,700')
+
+$primary-f: 'Fredoka One', 'Impact', sans-serif
+$secondary-f: 'Nunito', 'Helvetica Neue', sans-serif
+
+// Color Variables
+$primary-c: #0666ff
+$secondary-c: #db1f47
+$black-c: #060e19
+$white-c: #ffffff
+$grey-c: #fafafa
+
+// Font Size Variables
+$big-size: 18px
+$normal-size: 16px
+$mobile-size: 14px
+
+// Main Styles
+body
+    padding: 0
+    margin: 0
+    background-color: $white-c
+    color: $black-c
+    font-size: $normal-size
+    font-family: $secondary-f
+    overflow-x: hidden
+
+    @media (max-width: 600px)
+        font-size: $mobile-size
+
+
+    @media (max-width: 1500px)
+        font-size: $big-size
+
+h1,h2,h3,h4,h5,h6
+    font-family: $secondary-f
+
+/* Selection */
+::-moz-selection
+    text-shadow: none
+    background: $primary-c
+    color: $white-c
+    text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1)
+
+::selection
+    text-shadow: none
+    background: $primary-c
+    color: $white-c
+    text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1)
+
+img::-moz-selection
+    background: transparent
+
+img::selection
+    background: transparent
+
+img::-moz-selection
+    background: transparent
+
+// Partials
+@import '_partials/blocks.sass'
+@import '_partials/hero.sass'
+@import '_partials/sections.sass'
