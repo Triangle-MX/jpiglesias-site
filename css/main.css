@@ -95,7 +95,8 @@ img::-moz-selection {
   background-color: #fafafa; }
   #autor .link {
     color: #0666ff;
-    transition: 0.3s; }
+    transition: 0.3s;
+    font-weight: bold; }
     #autor .link:hover {
       text-decoration: none !important;
       color: #060e19; }
@@ -115,6 +116,7 @@ img::-moz-selection {
 
 @media (max-width: 780px) {
   #profile, #portada {
-    max-width: 200px; } }
+    max-width: 200px;
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
