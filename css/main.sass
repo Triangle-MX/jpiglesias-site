@@ -59,6 +59,28 @@ img::selection
 img::-moz-selection
     background: transparent
 
+// Notification
+#notification
+    background-color: #ffb61e
+    border: none
+    color: #1b1b1b
+    z-index: 9999
+    position: fixed
+    max-width: 960px
+    margin: 20px
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.29)
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.29)
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.29)
+
+    @media (max-width: 840px)
+        display: none
+
+    .alert-link
+        color: #1b1b1b
+
+.notification-killer
+    display: none !important
+
 // Partials
 @import '_partials/blocks.sass'
 @import '_partials/hero.sass'

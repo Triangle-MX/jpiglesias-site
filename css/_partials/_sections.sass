@@ -18,6 +18,25 @@
         -moz-box-shadow: 0px 0px 40px 0px rgba(39,104,246,0.50)
         box-shadow: 0px 0px 40px 0px rgba(39,104,246,0.50)
 
+    .elemento
+        text-align: center
+
+        @media (max-width: 780px)
+            margin-bottom: 40px
+
+        .icon
+            max-width: 200px
+            width: 80%
+            margin-bottom: 20px
+
+        .title
+            font-weight: bold
+            font-size: 120%
+            margin-bottom: 5px
+
+        .info
+            font-weight: lighter
+
 #autor
     padding: 60px 0
     text-align: justify
@@ -83,3 +102,17 @@
             &:hover
                 transform: scale(1.1)
                 text-decoration: none
+
+#footer
+    text-align: center
+    background-color: $grey-c
+    padding: 20px
+
+    .link
+        color: $primary-c
+        transition: .3s
+        font-weight: bold
+
+        &:hover
+            text-decoration: none !important
+            color: $black-c

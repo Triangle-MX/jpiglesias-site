@@ -26,9 +26,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script type="text/javascript">new WOW().init();</script>
 
+    <!-- Notification
+
+    <div class="alert alert-dismissible wow fadeIn" id="notification" data-wow-duration=".75s" data-wow-delay="1.2s" onload="setTimeout(notificationKill(),12000)">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>¡Hey!</strong> ¿Por qué tu negocio no tiene página web? ¡Nosotros te ayudamos! Entra a <a href="https://triangle.mx" class="alert-link">triangle.mx</a>
+    </div>
+
+    -->
+
     <div id="hero" class="wow fadeIn" data-wow-duration=".5s" data-wow-delay=".25s">
         <div class="container">
-            <img src="img/Logo.svg" id="logo" alt="El Pequeño Libro de Negocios para Niños" class="wow bounceInDown" data-wow-duration=".75s" data-wow-delay=".5s">
+            <img src="img/Logo.svg" id="logo" alt="El Pequeño Libro de Negocios para Niños" class="wow fadeIn" data-wow-duration=".75s" data-wow-delay=".5s">
         </div>
     </div>
 
@@ -36,11 +45,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <img id="portada" src="img/Portada.svg" alt="Portada del Libro" class="wow bounceInLeft" data-wow-duration=".5s" data-wow-delay=".3s">
+                    <img id="portada" src="img/Portada.svg" alt="Portada del Libro" class="wow fadeIn" data-wow-duration=".5s" data-wow-delay=".3s">
                 </div>
                 <div class="col-sm-9 lead">
                     <h2>Sobre el Libro</h2>
                     <p>Ah... El mundo de los negocios, un lugar lleno de términos extraños y complicados. Un lugar al que solamente algunos se atreven a entrar. Esto cambia hoy. <br><br> En las páginas de este libro descubrirás cómo puedes transformar una idea, por más loca que parezca, en un negocio en el que des a conocer al mundo lo que sea que se te ocurra. <br><br> Estoy un poco loco, por lo que de vez en cuando te puedes marear un poco, ¡pero no te preocupes! Si no entiendes bien algo a la primera, sólo debes leerlo una vez más y verás cómo comienza a tener sentido. <br><br> Recuerda que lo más importante es que te diviertas, ¡haz lo que más te gusta!</p>
+                    <br><br>
+                    <h2>Característcas</h2><br><br>
+                    <div class="row">
+                        <div class="col-sm-6 elemento wow fadeIn" data-wow-duration=".3s" data-wow-delay=".6s">
+                            <img src="img/QR.svg" alt="Celular con Código QR" class="icon"><br>
+                            <span class="title">Contenido Interactivo</span><br>
+                            <span class="info">Contiene <b>códigos QR</b> que puedes escanear para accesar a más contenido.</span>
+                        </div>
+                        <div class="col-sm-6 elemento wow fadeIn" data-wow-duration=".3s" data-wow-delay=".7s">
+                            <img src="img/Lenguaje.svg" alt="Libro Abierto" class="icon"><br>
+                            <span class="title">Lenguaje Sencillo</span><br>
+                            <span class="info">Explica conceptos complicados de manera <b>rápida</b>, <b>sencilla</b> y <b>eficaz</b>.</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,7 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 ">
-                    <img id="profile" src="img/Author.jpg" alt="José Pablo Iglesias" class="wow bounceInLeft" data-wow-duration=".5s" data-wow-delay=".3s">
+                    <img id="profile" src="img/Author.jpg" alt="José Pablo Iglesias" class="wow fadeIn" data-wow-duration=".5s" data-wow-delay=".3s">
                 </div>
                 <div class="col-sm-9 lead">
                     <h2>Sobre el Autor</h2>
@@ -65,9 +88,15 @@
         <div class="container lead">
             <h2>Consígue el Libro</h2>
             <p>Obtén hoy tu copia de <b>El Pequeño Libro de Negocios para Niños</b>, solo da click en el botón de abajo y llena el formato para que me ponga en contacto contigo.</p>
-            <div class="cta-cont wow bounceInLeft">
-                <a href="https://goo.gl/forms/fnH2dlIawh6r3ZCS2" id="cta-btn">Obtener el Libro</a>
+            <div class="cta-cont wow fadeIn">
+                <a href="https://goo.gl/forms/fnH2dlIawh6r3ZCS2" id="cta-btn" target="_blank">Obtener el Libro</a>
             </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            Diseñado y Desarrollado por <a href="https://triangle.mx/" class="link">Triangle</a>
         </div>
     </div>
 
@@ -80,7 +109,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <!-- Scripts JS -->
-        <script src="js/scripts.js"></script>
+        <script src="js/script.js"></script>
 
         <!-- Modernizr -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
